@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="shortcut icon"
+      href="./img/icons8-ocean-32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Vanilla</title>
+  </head>
+
+  <body>
+    <input type="checkbox" name="" id="check" />
+    <label for="check" class="toggle">
+      <span class="material-symbols-outlined"> menu </span>
+    </label>
+    <label for="check" class="toggle close">
+      <span class="material-symbols-outlined"> close </span>
+    </label>
+
+    <!-- section 1 for  navbar -->
+    <div class="section_1" id="intro">
+      <img src="./img/1st-section.jpg" alt="" />
+      <!-- nav bar fixed in right center-->
+      <div class="slide">
+        <ul>
+          <li><a href="#intro">INTRO</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#ourstory">OUR STORY</a></li>
+          <li><a href="#contactus">CONTACT US</a></li>
+        </ul>
+      </div>
+      <!-- headings in the section 1 and discover button-->
+      <div class="head_content">
+        <h1>VANILLA</h1>
+        <h3><span>Bootstrap</span> v4.2.1 Theme</h3>
+        <button>Discover More</button>
+      </div>
+    </div>
+
+    <!-- section 2 for bg image and more info about the page -->
+
+    <div class="section_2" id="services">
+      <!-- display flex  -->
+
+      <div class="content">
+        <div class="more">
+          <div class="row_1">
+            <h1>More About Vanilla</h1>
+            <hr />
+            <p>
+              Vanilla is free HTML CSS template with Bootstrap v4.2.1 and you
+              can apply this theme for your sites. Please share our
+              <a href="#">website</a> to your friends or collegues. Thank you.
+            </p>
+          </div>
+
+          <!-- dispaly flex in flex -->
+
+          <div class="row_2">
+            <span>- Praesent porta urna id eros</span>
+            <span>- Curabitur consectetur malesuada</span>
+            <span>- Nam pretium imperdiet enim</span>
+            <span>- Sed viverra arcu non nisi efficitur</span>
+            <button>Learn More About Us</button>
+          </div>
+        </div>
+
+        <!-- creating grid in flex  to display the information about the page-->
+
+        <div class="area">
+          <div class="row_3 design">
+            <h1>Classic Modern Design</h1>
+            <hr />
+            <p>
+              Sed lacinia ligula est, at venenatis ex iaculis quis. Morbi
+              sollicitudin nulla eget odio pellentesque.
+            </p>
+          </div>
+          <div class="row_3 work">
+            <h1>Effective Team Work</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              lacinia ligula est, at venenatis ex iaculis quis.
+            </p>
+          </div>
+          <div class="row_3 ideas">
+            <h1>Unique & Creative Ideas</h1>
+            <hr />
+            <p>
+              Sed lacinia ligula est, at venenatis ex iaculis quis. Morbi
+              sollicitudin nulla eget odio pellentesque.
+            </p>
+          </div>
+          <div class="row_3 support">
+            <h1>Fast Support 24/7</h1>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              lacinia ligula est, at venenatis ex iaculis quis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 3 slide show to display the products -->
+
+    <div class="section_3" id="portfolio">
+      <!-- Main slider body -->
+
+      <div class="slidershow middle">
+        <!-- creating slides -->
+
+        <div class="slides">
+          <input type="radio" name="r" id="r1" checked />
+          <input type="radio" name="r" id="r2" />
+          <input type="radio" name="r" id="r3" />
+          <input type="radio" name="r" id="r4" />
+          <input type="radio" name="r" id="r5" />
+          <input type="radio" name="r" id="r6" />
+
+          <!-- Each single slide -->
+          <div class="slide s1">
+            <img src="./img/2nd-item.jpg" alt="camera" />
+            <div class="product_info">
+              <p>Antique Decoration photo</p>
+              <span>$27.00</span>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./img/3rd-item.jpg" alt="work_hand_bag" />
+            <div class="product_info">
+              <p>Work Hand Bag</p>
+              <span>$36.00</span>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./img/4th-item.jpg" alt="Smart_watch" />
+            <div class="product_info">
+              <p>Smart Watch</p>
+              <span>$45.00</span>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./img/5th-item.jpg" alt="PC_Table_draw" />
+            <div class="product_info">
+              <p>PC Table Draw</p>
+              <span>$63.00</span>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./img/6th-item.jpg" alt="Milk_Shake" />
+            <div class="product_info">
+              <p>Healthy Milk Shake</p>
+              <span>$77.00</span>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="./img/2nd-item.jpg" alt="camera" />
+            <div class="product_info">
+              <p>Antique Decoration photo</p>
+              <span>$27.00</span>
+            </div>
+          </div>
+        </div>
+        <!-- navigation buttons -->
+        <div class="navigation">
+          <label for="r1" class="circle"></label>
+          <label for="r2" class="circle"></label>
+          <label for="r3" class="circle"></label>
+          <label for="r4" class="circle"></label>
+          <label for="r5" class="circle"></label>
+          <label for="r6" class="circle"></label>
+        </div>
+      </div>
+    </div>
+
+    <!--section 4 story of the web page   -->
+
+    <div class="section_4" id="ourstory">
+      <!-- story main div -->
+
+      <div class="journey middle1">
+        <!-- creating stories-->
+
+        <div class="stories">
+          <input type="radio" name="r" id="story1" checked />
+          <input type="radio" name="r" id="story2" />
+          <input type="radio" name="r" id="story3" />
+          <input type="radio" name="r" id="story4" />
+
+          <!-- Each single story -->
+          <div class="story s">
+            <img src="./img/1st-tab.jpg" alt="" />
+            <div class="">
+              <p>
+                Please do not re-distribute our template ZIP file on your
+                template collection sites. You can make a screenshot and a link
+                back to our website. This template can be used for personal or
+                commercial purposes by end-users.
+              </p>
+            </div>
+          </div>
+          <div class="story s_1">
+            <img src="./img/2nd-tab.jpg" alt="" />
+            <div class="">
+              <p>
+                Aliquam eu ultrices risus, sed condimentum diam. Duis risus
+                nulla, elementum vitae nisi a, ornare maximus nisl. Morbi et
+                vehicula est. Cras at vulputate justo. Cras eu nulla metus. Ut
+                et pretium velit.
+              </p>
+            </div>
+          </div>
+          <div class="story s_2">
+            <img src="./img/3rd-tab.jpg" alt="" />
+            <div class="">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+                lacinia ligula est, at venenatis ex iaculis quis. Morbi
+                sollicitudin nulla eget odio pellentesque, sed cursus diam
+                iaculis.
+              </p>
+            </div>
+          </div>
+          <div class="story s_3">
+            <img src="./img/4th-tab.jpg" alt="" />
+            <div class="">
+              <p>
+                Duis risus nulla, elementum vitae nisi a, ornare maximus nisl.
+                Morbi et vehicula est. Cras at vulputate justo. Cras eu nulla
+                metus. Ut et pretium velit. Pellentesque at neque tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- -->
+        <div class="years">
+          <label for="story1" class="rect">2008-2014</label>
+          <label for="story2" class="rect">2014-2016</label>
+          <label for="story3" class="rect">2016-2019</label>
+          <label for="story4" class="rect">2019-NOW</label>
+        </div>
+      </div>
+    </div>
+
+    <!--section 5 for contacting and Address   -->
+    <div class="section_5" id="contactus">
+      <!--form for contacting us  -->
+
+      <div class="form">
+        <label for="name"></label>
+        <input type="text" name="" id="name" placeholder="Your name..." />
+
+        <label for="email"></label>
+        <input type="email" name="" id="email" placeholder="Your email..." />
+
+        <label for="message"></label>
+        <textarea name="" id="message" placeholder="Your message..."></textarea>
+        <button>SEND MESSAGE</button>
+      </div>
+
+      <!-- location to reach us out -->
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2028845.2299800382!2d-1.6197630000000003!3d6.697798!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi%20Central%20Market!5e0!3m2!1sen!2sus!4v1716523890431!5m2!1sen!2sus"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- fotter creation -->
+    <div class="footer">
+      <div class="b">
+        <button><a href="#intro">Back To TOP</a></button>
+      </div>
+      <!-- icons -->
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-solid fa-globe"></i>
+      </div>
+
+      <div class="copywrite">
+        <p>Copyright © 2019 Company Name - Design: <a href="">TemplateMo</a></p>
+      </div>
+    </div>
+  </body>
+</html>
